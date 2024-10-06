@@ -1,0 +1,150 @@
+ :root{
+    --dark:#433878;
+    --light:#7E60BF;
+    --lightpink:#E4B1F0;
+    --pink:#FFE1FF;
+
+ }
+
+ @font-face{
+    font-family:myfont;
+    src:url(Super\ Dream.ttf )
+ }
+  
+
+ body{
+
+    margin:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:var(--lightpink);
+    text-decoration: none;
+   
+   
+ }
+
+ header{
+    display: flex;
+ }
+ #fristname{
+    flex:6; 
+    margin-left:0.5em;
+    align-self: center;
+    font-size:1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:var(--dark);
+
+    
+ }
+ nav{
+    flex:5
+    
+ }
+
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+ }
+
+ ul li{
+    flex:1;
+
+    list-style: none;
+ }
+
+li a{
+    margin-left:0.5em;
+    text-decoration: none;
+    
+}
+
+
+.main{
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+  
+}
+
+.info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+   
+
+    
+}
+
+.img{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    border: #FFE1FF solid 1px;
+    min-width: 250px;
+    width:90%;
+    border-radius: 10% 10%;
+    box-shadow: 10px 20px 3px var(--light);
+
+}
+
+.info p{
+    font-size:2em;
+    color: var(--dark);
+    word-spacing: 1px;
+    flex:1;
+    align-self:end;
+
+
+    
+}
+
+
+
+#id{
+    flex: 1;
+
+}
+#welcome{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size:2.5em;
+    text-transform: uppercase;
+}
+
+
+span{
+    color:red;
+}
+
+h1{
+    margin: 0%;
+    color: black;
+    text-transform: uppercase;
+}
+
+footer{
+    color: var(--dark);
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+
+a:hover{
+    background-color:var(--light);
+    border-radius:5px 5px;
+    border: black solid 1px;
+    font-weight: bolder;
+    color:white;
+   
+}
